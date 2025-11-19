@@ -4,10 +4,12 @@ site_url: https://mydomain.org/
 
 theme:
   name: material
+  logo: assets/img/logo.svg
+  homepage: https://mydomain.org/
+  favicon: assets/img/favicon.png
   icon:
-    annotation: material/arrow-right-circle
+    annotation: material/star-four-points-circle
     repo: fontawesome/brands/github
-    logo: material/cat
   language: es
 
   palette:
@@ -66,7 +68,11 @@ markdown_extensions:
       anchor_linenums: true
       pygments_lang_class: true
       auto_title: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
@@ -78,11 +84,10 @@ markdown_extensions:
       alternate_style: true
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 extra_javascript:
-  - javascripts/extra.js
+  - assets/javascripts/extra.js
 
 plugins:
-  - search
   - minify:
       minify_html: true

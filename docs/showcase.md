@@ -2,37 +2,21 @@
 icon: material/emoticon-happy 
 ---
 
-# Showcase
+# Showcase {#showcase}
 
 Bienvenido a la sección de Diseño de Aplicaciones.  
 Aquí exploraremos conceptos clave y buenas prácticas para crear aplicaciones modernas y eficientes.
 
 ---
 
-## Contenido
-
-- [Showcase](#showcase)
-  - [Contenido](#contenido)
-  - [Introducción](#introducción)
-  - [Arquitectura](#arquitectura)
-  - [Patrones de Diseño](#patrones-de-diseño)
-  - [Notas](#notas)
-  - [Tablas de contenido](#tablas-de-contenido)
-  - [Usando Grids](#usando-grids)
-  - [Acrónimos/definiciones](#acrónimosdefiniciones)
-  - [Ejemplos de Código](#ejemplos-de-código)
-  - [Enlaces Externos](#enlaces-externos)
-
----
-
-## Introducción
+## Introducción {#introduction}
 
 El **UI** y **UX** son fundamentales para que los usuarios interactúen correctamente con el sistema.  
 A lo largo de esta sección, encontrarás ejemplos de **API**, estructuras de **CPU**, y bases de datos como **SQL** que se usan en la arquitectura moderna.
 
 ---
 
-## Arquitectura
+## Arquitectura {#architecture}
 
 La arquitectura de la aplicación sigue un modelo **MVC**.  
 
@@ -46,7 +30,7 @@ La arquitectura de la aplicación sigue un modelo **MVC**.
 
 ---
 
-## Patrones de Diseño
+## Patrones de Diseño {#design-patterns}
 
 Algunos patrones importantes:
 
@@ -54,7 +38,7 @@ Algunos patrones importantes:
 - **Factory**: Crea objetos sin exponer la lógica de creación.
 - **Observer**: Permite que un objeto notifique cambios a otros objetos suscritos.
 
-> Puedes añadir tooltips a cada patrón usando acrónimos o definiciones en `acronyms.md`.
+> Puedes añadir tooltips a cada patrón usando acrónimos o definiciones en `abbreviations.md`.
 
 Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 { .annotate }
@@ -62,7 +46,7 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 1.  :man_raising_hand: I'm an annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be expressed in Markdown.
 ---
-## Notas
+## Notas {#annotations}
 !!! note "una Salchicpaap"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
@@ -93,7 +77,7 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 ???+ example "Desplegado"
     Estoy desplegado por defecto
 
-## Tablas de contenido
+## Tablas de contenido {#tabs}
 === "Tab 1"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -136,7 +120,7 @@ Pero sin o tienen el mismo nombre:
     ```
 
 
-## Usando Grids
+## Usando Grids {#grids}
 
 <div class="grid cards" markdown>
 
@@ -147,11 +131,132 @@ Pero sin o tienen el mismo nombre:
 
 </div>
 
-## Acrónimos/definiciones
+## Usando diagramas {#diagrams}
+Graphs 
 
-En el archivo ```python includes/abbreviations.dm``` estan las abrevicaciones, que al poner el raton encima, te dara una pequeña descripcion que hayas asignado.
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
 
-## Ejemplos de Código
+Secuencial
+
+``` mermaid
+sequenceDiagram
+  autonumber
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+      John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```
+
+Estado
+
+``` mermaid
+stateDiagram-v2
+  state fork_state <<fork>>
+    [*] --> fork_state
+    fork_state --> State2
+    fork_state --> State3
+
+    state join_state <<join>>
+    State2 --> join_state
+    State3 --> join_state
+    join_state --> State4
+    State4 --> [*]
+```
+
+De clase
+
+``` mermaid
+classDiagram
+  Person <|-- Student
+  Person <|-- Professor
+  Person : +String name
+  Person : +String phoneNumber
+  Person : +String emailAddress
+  Person: +purchaseParkingPass()
+  Address "1" <-- "0..1" Person:lives at
+  class Student{
+    +int studentNumber
+    +int averageMark
+    +isEligibleToEnrol()
+    +getSeminarsTaken()
+  }
+  class Professor{
+    +int salary
+  }
+  class Address{
+    +String street
+    +String city
+    +String state
+    +int postalCode
+    +String country
+    -validate()
+    +outputAsLabel()
+  }
+```
+
+De Relacion-Entidad
+
+``` mermaid
+erDiagram
+  CUSTOMER ||--o{ ORDER : places
+  ORDER ||--|{ LINE-ITEM : contains
+  LINE-ITEM {
+    string name
+    int pricePerUnit
+  }
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+## Iconos {#icons}
+Iconos normales
+```java title="Un Emoji"
+:smile: //(1)!
+```
+
+1. Esto seria :smile:
+
+
+Usando librerias de iconos
+
+```java title="Un Emoji 2"
+:fontawesome-regular-face-laugh-wink: //(1)!
+```
+
+1. Esto seria :fontawesome-regular-face-laugh-wink:
+
+Aplicando un poco de color a la vida
+
+```css title="docs/assets/stylesheets/extra.css"
+.youtube {
+  color: #EE0F0F;
+}
+```
+
+```java title="El icono con color"
+:fontawesome-brands-youtube:{ .youtube }//(1)!
+```
+
+1. Esto se veria asi :fontawesome-brands-youtube:{ .youtube }
+
+## Acrónimos/definiciones {#abbreviations}
+
+En el archivo ```#!python includes/abbreviations.md```(1) estan las abrevicaciones, que al poner el raton encima, te dara una pequeña descripcion que hayas asignado.
+{.annotate}
+
+1. Destacar codigo en linea, se puede usar cualqueir lenguaje, como ```#!css background-color:"red"``` 
+
+## Ejemplos de Código {#code-examples}
+Con tiutlo asignado
 
 ```css title="css/styles.css"
 .prueba:hover{ /* (1)! */
@@ -164,14 +269,39 @@ En el archivo ```python includes/abbreviations.dm``` estan las abrevicaciones, q
 2. Cambiar el color a rojo
 3. Poner un radio de borde
 
-``` yaml
-# (1)!
+Enseñando lineas
+
+``` py linenums="1"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-1.  Look ma, less line noise!
+Entonando lineas
+``` py hl_lines="2 3"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+``` py hl_lines="3-5"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+Mirando al pasado a un enlace, podemos ver una pequeña previsualizacion
+
+[Ver Tablas](#tabs)
 
 
-## Enlaces Externos
+## Enlaces Externos {#external-links}
 
 - [Annotations](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#usage)
 - [Tooltips](https://squidfunk.github.io/mkdocs-material/reference/tooltips/#usage)
@@ -180,4 +310,6 @@ En el archivo ```python includes/abbreviations.dm``` estan las abrevicaciones, q
 - [Content Tabs](https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#usage)
 - [Creating a Page](https://squidfunk.github.io/mkdocs-material/reference)
 - [Grid](https://squidfunk.github.io/mkdocs-material/reference/grids/#usage)
-- [Bloques de codigo](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#usage)
+- [Code blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#usage)
+- [Diagrams](https://squidfunk.github.io/mkdocs-material/reference/diagrams/#usage)
+- [Icons](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#usage)
