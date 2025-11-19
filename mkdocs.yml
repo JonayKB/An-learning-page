@@ -32,6 +32,8 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.instant.preview
     - content.code.copy
     - content.code.annotate
     - content.tooltips
