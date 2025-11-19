@@ -1,11 +1,33 @@
 # Inspired by 
-site_name: My Docs
-site_url: https://mydomain.org/mysite
+site_name: Sara's Page
+site_url: https://mydomain.org/
 
 theme:
   name: material
   icon:
     annotation: material/arrow-right-circle
+    repo: fontawesome/brands/github
+    logo: material/cat
+  language: es
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.instant

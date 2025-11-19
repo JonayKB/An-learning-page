@@ -19,6 +19,7 @@ Aquí exploraremos conceptos clave y buenas prácticas para crear aplicaciones m
   - [Notas](#notas)
   - [Tablas de contenido](#tablas-de-contenido)
   - [Usando Grids](#usando-grids)
+  - [Acrónimos/definiciones](#acrónimosdefiniciones)
   - [Ejemplos de Código](#ejemplos-de-código)
   - [Enlaces Externos](#enlaces-externos)
 
@@ -68,12 +69,29 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-!!! note annotate "Con anotaciones (1)"
+!!! success annotate "Con anotaciones (1)"
     Esto es una prueba (2), y esto espero que sea util (3)
 
 1. Las anotaciones son estas cositas que haces click
 2. Una pruebaes una cosa donde pruebas cosas
 3. Algo util, es algo que sirve para algo
+
+??? example "Tipos soportados sin desplegar"
+    !!! note
+    !!! abstract
+    !!! info
+    !!! tip
+    !!! success
+    !!! question
+    !!! warning
+    !!! failure
+    !!! danger
+    !!! bug
+    !!! example
+    !!! quote
+
+???+ example "Desplegado"
+    Estoy desplegado por defecto
 
 ## Tablas de contenido
 === "Tab 1"
@@ -129,6 +147,10 @@ Pero sin o tienen el mismo nombre:
 
 </div>
 
+## Acrónimos/definiciones
+
+En el archivo ```python includes/abbreviations.dm``` estan las abrevicaciones, que al poner el raton encima, te dara una pequeña descripcion que hayas asignado.
+
 ## Ejemplos de Código
 
 ```css title="css/styles.css"
@@ -158,3 +180,4 @@ Pero sin o tienen el mismo nombre:
 - [Content Tabs](https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#usage)
 - [Creating a Page](https://squidfunk.github.io/mkdocs-material/reference)
 - [Grid](https://squidfunk.github.io/mkdocs-material/reference/grids/#usage)
+- [Bloques de codigo](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#usage)
