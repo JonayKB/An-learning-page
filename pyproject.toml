@@ -1,0 +1,8 @@
+[project]
+name = "an-learning-page"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "mkdocs-material>=9.7.0",
+    "mkdocs-minify-plugin>=0.8.0",
+]
