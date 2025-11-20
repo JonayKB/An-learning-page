@@ -52,14 +52,18 @@ theme:
 nav:
   - Home: index.md
   - Showcase: showcase.md
+  
   - Diseño de Interfaces Web:
       - design/index.md
       - Presentacion: design/presentation.md
+      - Planificación de Interfaces Web: design/web-ui-planification/index.md
       - Multimedia: 
         - design/multimedia/index.md
         - Audio: design/multimedia/audio.md
         - Video: design/multimedia/video.md
         - Imagenes: design/multimedia/images.md
+      - Accesibilidad: design/accessibility/index.md
+      - Usabilidad: design/usability/index.md
 
 markdown_extensions:
   - abbr
