@@ -248,6 +248,16 @@ Aplicando un poco de color a la vida
 
 1. Esto se veria asi :fontawesome-brands-youtube:{ .youtube }
 
+Los __iconos__ de __mkdocs__ usan:
+<div class="grid cards" markdown>
+- :fontawesome-brands-font-awesome-logo-full: [__FontAwesome__](https://fontawesome.com/search?m=free)
+- :material-material-design: [__Material Design__](https://pictogrammers.com/library/mdi/)
+- :octicons-mark-github-24: [__Octicons__](https://octicons.github.com/)
+- :simple-simpleicons: [__Simple Icons__](https://simpleicons.org/)
+</div>
+
+En la [página oficial](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search), hay un buscador que te permite ver todos los iconos incluidos en mkdocs
+
 ## Acrónimos/definiciones {#abbreviations}
 
 En el archivo ```#!python includes/abbreviations.md```(1) estan las abrevicaciones, que al poner el raton encima, te dara una pequeña descripcion que hayas asignado.
@@ -296,9 +306,28 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
+
+## Preview instantanea
+
 Mirando al pasado a un enlace, podemos ver una pequeña previsualizacion
 
 [Ver Tablas](#tabs)
+
+## Imagenes
+
+Imagne grande, con descripción, se puede hacer zoom
+<figure markdown>
+![Un Placeholder](https://placehold.co/6000x4000){ width="500px"}
+<figcaption>Tulum, Mexico. Credit: Blueswen</figcaption>
+</figure>
+
+Descentrada por no usar ```#!html <figure markdown></figure>```(1)
+{.annotate}
+
+1. Solo es necesario, añadir eso y la imagen, no es necesario usar ```#!html <figcaption/>```
+
+![Un Placeholder](https://placehold.co/400x600){.center}
+
 
 
 ## Enlaces Externos {#external-links}
@@ -313,3 +342,4 @@ Mirando al pasado a un enlace, podemos ver una pequeña previsualizacion
 - [Code blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#usage)
 - [Diagrams](https://squidfunk.github.io/mkdocs-material/reference/diagrams/#usage)
 - [Icons](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#usage)
+- [Images](https://github.com/blueswen/mkdocs-glightbox/tree/main/demo-mkdocs/docs/taiwan)

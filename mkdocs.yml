@@ -1,6 +1,9 @@
-# Inspired by 
+# Inspired by https://github.com/sdelquin/aprendepython & https://github.com/squidfunk/mkdocs-material
 site_name: Sara's Page
 site_url: https://mydomain.org/
+site_description: "Una página de aprendizaje sobre diseño y desarrollo web."
+site_author: Sara ?
+copyright: "© 2025 Sara ?"
 
 theme:
   name: material
@@ -15,14 +18,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: deep purple
       accent: amber
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
+      primary: deep purple
       accent: amber
       toggle:
         icon: material/weather-sunny
@@ -43,15 +46,20 @@ theme:
     - toc.follow
     - navigation.indexes
     - content.tabs.link
-    - navigation.path
+    - navigation.top
     
 
 nav:
   - Home: index.md
   - Showcase: showcase.md
-  - Diseño de Aplicaciones:
+  - Diseño de Interfaces Web:
       - design/index.md
-      - Imagenes Vectoriales: design/vectorials/index.md
+      - Presentacion: design/presentation.md
+      - Multimedia: 
+        - design/multimedia/index.md
+        - Audio: design/multimedia/audio.md
+        - Video: design/multimedia/video.md
+        - Imagenes: design/multimedia/images.md
 
 markdown_extensions:
   - abbr
@@ -64,6 +72,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.blocks.caption
   - pymdownx.highlight:
       anchor_linenums: true
       pygments_lang_class: true
@@ -89,5 +98,22 @@ extra_javascript:
   - assets/javascripts/extra.js
 
 plugins:
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_themed: false
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false
   - minify:
       minify_html: true

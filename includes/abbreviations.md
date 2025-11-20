@@ -4,3 +4,4 @@
 *[CPU]: Central Processing Unit
 *[SQL]: Structured Query Language
 *[MVC]: Model View Controller (modelo vista controlador)
+*[DOR]: Diseño de Interfaces Web
