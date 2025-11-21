@@ -265,7 +265,7 @@ En el archivo ```#!python includes/abbreviations.md```(1) estan las abrevicacion
 
 1. Destacar codigo en linea, se puede usar cualqueir lenguaje, como ```#!css background-color:"red"``` 
 
-## Ejemplos de Código {#code-examples}
+## Bloques de Código {#code-examples}
 Con tiutlo asignado
 
 ```css title="css/styles.css"
@@ -279,7 +279,7 @@ Con tiutlo asignado
 2. Cambiar el color a rojo
 3. Poner un radio de borde
 
-Enseñando lineas
+### Enseñando lineas
 
 ``` py linenums="1"
 def bubble_sort(items):
@@ -289,7 +289,7 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-Entonando lineas
+### Entonando lineas
 ``` py hl_lines="2 3"
 def bubble_sort(items):
     for i in range(len(items)):

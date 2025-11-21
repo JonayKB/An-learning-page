@@ -38,4 +38,4 @@ Cada paso que des te acerca más a convertirte en un **desarrollador profesional
 
 ## El Comienzo de este viaje
 
-[Empieza por aquí](design/presentation)
+[Empieza por aquí](presentation.md)

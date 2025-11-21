@@ -1,14 +1,14 @@
 # Inspired by https://github.com/sdelquin/aprendepython & https://github.com/squidfunk/mkdocs-material
-site_name: Sara's Page
-site_url: https://mydomain.org/
+site_name: Sarispian - Diseño y Desarrollo Web
+site_url: https://sarispian.ddns.net/
 site_description: "Una página de aprendizaje sobre diseño y desarrollo web."
-site_author: Sara ?
-copyright: "© 2025 Sara ?"
+site_author: Sara Pérez
+copyright: "© 2025 Sara Pérez"
 
 theme:
   name: material
   logo: assets/img/logo.svg
-  homepage: https://mydomain.org/
+  homepage: https://sarispian.ddns.net/
   favicon: assets/img/favicon.png
   icon:
     annotation: material/star-four-points-circle
@@ -102,22 +102,6 @@ extra_javascript:
   - assets/javascripts/extra.js
 
 plugins:
-  - glightbox:
-       touchNavigation: true
-       loop: false
-       effect: zoom
-       slide_effect: slide
-       width: 100%
-       height: auto
-       zoomable: true
-       draggable: true
-       skip_classes:
-         - custom-skip-class-name
-       auto_themed: false
-       auto_caption: false
-       caption_position: bottom
-       background: white
-       shadow: true
-       manual: false
+  - glightbox
   - minify:
       minify_html: true

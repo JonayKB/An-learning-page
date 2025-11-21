@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  web:
+    image: jonaykb/sarispian-web:latest
+    restart: always
+    ports:
+     - "5434:443"
+    networks:
+     - apiNetwork
+    volumes:
+     - /etc/letsencrypt:/etc/letsencrypt:ro
+networks:
+  apiNetwork:
