@@ -1,6 +1,6 @@
 # Inspired by https://github.com/sdelquin/aprendepython & https://github.com/squidfunk/mkdocs-material
 site_name: Sarispian - Diseño y Desarrollo Web
-site_url: https://sarispian.ddns.net/
+site_url: /
 site_description: "Una página de aprendizaje sobre diseño y desarrollo web."
 site_author: Sara Pérez
 copyright: "© 2025 Sara Pérez"
