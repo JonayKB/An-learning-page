@@ -34,7 +34,8 @@ jobs:
         host: ${{ vars.HOSTING_PC }}
         password: ${{ secrets.HOSTING_PASSWORD }}
         script: |
-            docker compose down;
-            docker compose pull
-            docker image prune -f
-            docker compose up -d
+          echo "${{ secrets.DOCKERHUB_PASSWORD }}" | docker login -u ${{ vars.DOCKERHUB_USERNAME }} --password-stdin
+          docker compose down
+          docker compose pull
+          docker image prune -f
+          docker compose up -d
