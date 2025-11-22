@@ -59,9 +59,16 @@ nav:
       - Planificación de Interfaces Web: design/web-ui-planification/index.md
       - Multimedia: 
         - design/multimedia/index.md
+        - Metadatos: design/multimedia/metadata.md
         - Audio: design/multimedia/audio.md
         - Video: design/multimedia/video.md
-        - Imagenes: design/multimedia/images.md
+        - Imagenes: 
+          - design/multimedia/images/index.md
+          - Formatos de Imagenes: design/multimedia/images/formats.md
+          - Uso en HTML, JS y CSS: design/multimedia/images/htmljscss.md
+          - Imágenes Vectoriales: design/multimedia/images/vector.md
+        - Animaciones: design/multimedia/animations.md
+
       - Accesibilidad: design/accessibility/index.md
       - Usabilidad: design/usability/index.md
 
