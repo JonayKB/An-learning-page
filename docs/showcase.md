@@ -131,6 +131,41 @@ Pero sin o tienen el mismo nombre:
 
 </div>
 
+<div class="grid cards" markdown>
+- :material-calendar:{ .lg .middle }Planificación de Interfaces
+
+    ---
+    La __unidad uno__ constara de la __planificación__, __diseño__ e __implementación de interfaces__
+
+    [:octicons-arrow-right-24: Ir a la Unidad Uno]()
+
+- :material-multimedia:{ .lg .middle }Multimedia
+
+    ---
+    En la __unidad dos__, se tratara la __implementación__ de contenido __multimedia__ e __integración de contenido interactivo__
+
+    [:octicons-arrow-right-24: Ir a la Unidad Dos]()
+
+- :material-wheelchair-accessibility:{ .lg .middle }Diseño de Webs Accesibles
+
+    ---
+    Esta __unidad__(1), aprenderemos a __diseñar__ páginas webs __accesibles__
+    {.annotate}
+    
+    1. __Unidad Tres__
+
+    [:octicons-arrow-right-24: Ir a la Unidad Tres]()
+
+- :material-touch-text-outline:{ .lg .middle }Implementacion de la Usabilidad
+
+    ---
+    Y por último, __aprenderemos__ a __implementar__ en páginas web la __usabilidad__
+
+    [:octicons-arrow-right-24: Ir a la Unidad Cuatro]()
+
+</div>
+
+
 ## Usando diagramas {#diagrams}
 Graphs 
 

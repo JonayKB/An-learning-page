@@ -12,3 +12,4 @@
 *[CSS]: Cascading Style Sheets (Hojas de Estilo en Cascada)
 *[CERN]: Organización Europea para la Investigación Nuclear
 *[WWW]: World Wide Web
+*[UGC]: User Generated Content

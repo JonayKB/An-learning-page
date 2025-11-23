@@ -30,7 +30,50 @@ Su contenido __describía qué era la web__, cómo se podía __acceder a documen
 
 ### Años 2000s: La Aparición del CSS {#2000s}
 
+!!! abstract "Todo más bonito"
+    La llegada del CSS permitió __separar el contenido__ de la presentación, mejorando el 
+    __diseño visual__.
+
+    Aparecen __tablas y marcos__ para organizar la información.
+
+!!! success "Animaciones"
+    Empezo a usarse __Flash__, que permitio introducir __animaciones__ y __elementos interactivos__.
+
+---
+
 ### Mediados de Los 2000s: La Web 2.0 {#half-2000s}
+
+La web se vuelve cada vez más __dinámica__ e __interactiva__. A continuación se destacan los puntos principales:
+
+<div class="grid cards" markdown>
+
+- :material-account-circle-outline:{ .lg .middle } **Diseño centrado en el usuario**
+
+    ---
+    Uso de __botones__, __formularios__ y __navegación intuitiva__.
+
+- :material-gesture-tap-button:{ .lg .middle } **Interactividad creciente**
+
+    ---
+    Interfaces más __responsivas__ y adaptadas al __comportamiento__ del __usuario__.
+
+- :material-account-group-outline:{ .lg .middle } **Contenido generado por usuarios (UGC)**
+  
+    ---
+    __Comentarios__, __publicaciones__ y __participación activa__.
+
+- :material-share-variant:{ .lg .middle } **Impacto de las redes sociales**
+
+    ---
+    Mayor __personalización__ del contenido presentado al usuario.
+
+</div>
+
+
+!!! info "Web 2.0"
+    La combinación de __interactividad__ y __personalización__ está definiendo la experiencia __digital moderna__.
+
+---
 
 ### Años 2010s: El Diseño Responsivo {#2010s}
 
