@@ -50,9 +50,8 @@ theme:
     
 
 nav:
+  - Inicio: index.md
   - Showcase: showcase.md
-  - Home: index.md
-  
   - Diseño de Interfaces Web:
       - design/index.md
       - Presentacion: design/presentation.md
