@@ -17,7 +17,7 @@ __limitaciones técnicas__.
 
 
 <figure markdown>
-![Primera Web](../../assets/img/design/web-ui-planification/WWW.png){width=600px}
+![Primera Web](../../assets/img/design/web-ui-planification/WWW.png){width=600px .rounded}
 <figcaption>Primera Página Web de la Historia, WWW</figcaption>
 </figure>
 
@@ -77,11 +77,53 @@ La web se vuelve cada vez más __dinámica__ e __interactiva__. A continuación 
 
 ### Años 2010s: El Diseño Responsivo {#2010s}
 
+- Con el __auge__ de los __dispositivos móviles__(1), surge el __diseño responsive__, que
+permite que las __páginas web__ se __adapten__ a distintos __tamaños de pantalla__.
+{.annotate}
+
+    1. Tambien se creo el __Mobile First__ (__En Telefono Mobil Primero__), pero __no__ se __generalizo__ hasta __2018__. 
+
+!!! success
+    HTML5 y CSS3 __revolucionan__ con nuevas __capacidades gráficas__ y __multimedia__.
+  
+---
+
 ### Actualidad: Minimalismo y UX {#now}
+
+El __enfoque actual__ está en:
+
+- La __simplicidad__ :material-sticker-text-outline:
+- La __velocidad__    :simple-speedtest:
+- La __accesibilidad__ :material-wheelchair-accessibility:
+!!! warning annotate "OJITO"
+    Se prioriza la __experiencia de usuario__ (UX) y la __optimización para móviles__. __Frameworks__(1) como [__Bootstrap__](https://getbootstrap.com/) y el uso de __tecnologías__ como __JavaScript__ mejoran la __interactividad__ y la __personalización__.
+
+  1. Un __framework__ es una __estructura__ o __conjunto de herramientas__, __bibliotecas__ y __convenciones predefinidas__ que __simplifican__ y __aceleran__ el __desarrollo__ de __software__. 
+
+---
 
 ### El Futuro: La IA y Web 3.0 {#future}
 
+
+
+!!! abstract annotate "Nuevas Técnologias"
+    Se espera que la __IA__, el __aprendizaje automático__(1) y las __tecnologías inmersivas__ (AR/VR) jueguen un __papel clave__, transformando la manera en que __interactuamos__ con las __interfaces web__.
+
+  1. Con __IAs__ generativas, o el uso del __Deep Learning__
+
+---
+
 ### La Evolucion de los Logotipos {#logos}
+
+<figure markdown>
+![Un Placeholder](../../assets/img/design/web-ui-planification/logo_progresion.png){ width="800px" .rounded}
+<figcaption>Muy Pasado, Menos Pasado y Actualidad</figcaption>
+</figure>
+
+
+??? question "¿Veís algun patrón?"
+     __¡Así es!__ al comienzo, eran todos __muy simples__, después __sufrieron un intento__ de __asemejarse a la realidad__, y por último de vuelta a la __simplicidad__.
+
 
 ## Interacción Persona-Ordenador {#pc-human}
 

@@ -5,3 +5,7 @@
 .yellow{
   color: #FFDD00;
 }
+
+.rounded{
+  border-radius: 10px;
+}

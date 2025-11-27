@@ -110,5 +110,6 @@ extra_javascript:
 
 plugins:
   - glightbox
+  - search
   - minify:
       minify_html: true

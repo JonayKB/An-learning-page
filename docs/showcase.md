@@ -350,7 +350,7 @@ Mirando al pasado a un enlace, podemos ver una pequeña previsualizacion
 
 ## Imagenes
 
-Imagne grande, con descripción, se puede hacer zoom
+Imagen grande, con descripción, se puede hacer zoom
 <figure markdown>
 ![Un Placeholder](https://placehold.co/6000x4000){ width="500px"}
 <figcaption>Tulum, Mexico. Credit: Blueswen</figcaption>

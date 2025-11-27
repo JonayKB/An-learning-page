@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "web-ui-planification/index.md"
+        "web-ui-planification/index.md",
+        "index.md"
     ]
 }
