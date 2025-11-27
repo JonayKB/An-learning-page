@@ -1,5 +1,6 @@
 ---
 icon: material/home
+title: Inicio
 ---
 
 
