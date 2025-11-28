@@ -9,7 +9,7 @@ theme:
   name: material
   logo: assets/img/logo.svg
   homepage: https://sarispian.ddns.net/
-  variant: moderm
+  variant: modern
   favicon: assets/img/favicon.ico
   icon:
     annotation: material/star-four-points-circle
