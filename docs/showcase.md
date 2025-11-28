@@ -18,7 +18,7 @@ A lo largo de esta sección, encontrarás ejemplos de **API**, estructuras de **
 
 ## Arquitectura {#architecture}
 
-La arquitectura de la aplicación sigue un modelo **MVC**.  
+La arquitectura de la aplicación sigue un modelo **MVC**.
 
 **Componentes principales:**
 
@@ -43,10 +43,13 @@ Algunos patrones importantes:
 Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 { .annotate }
 
-1.  :man_raising_hand: I'm an annotation! I can contain `code`, __formatted
-    text__, images, ... basically anything that can be expressed in Markdown.
+1.  :man_raising_hand: I'm an annotation! I can contain `code`, **formatted
+    text**, images, ... basically anything that can be expressed in Markdown.
+
 ---
+
 ## Notas {#annotations}
+
 !!! note "una Salchicpaap"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
@@ -54,30 +57,31 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
     massa, nec semper lorem quam in massa.
 
 !!! success annotate "Con anotaciones (1)"
-    Esto es una prueba (2), y esto espero que sea util (3)
+Esto es una prueba (2), y esto espero que sea util (3)
 
 1. Las anotaciones son estas cositas que haces click
 2. Una pruebaes una cosa donde pruebas cosas
 3. Algo util, es algo que sirve para algo
 
 ??? example "Tipos soportados sin desplegar"
-    !!! note
-    !!! abstract
-    !!! info
-    !!! tip
-    !!! success
-    !!! question
-    !!! warning
-    !!! failure
-    !!! danger
-    !!! bug
-    !!! example
-    !!! quote
+!!! note
+!!! abstract
+!!! info
+!!! tip
+!!! success
+!!! question
+!!! warning
+!!! failure
+!!! danger
+!!! bug
+!!! example
+!!! quote
 
 ???+ example "Desplegado"
-    Estoy desplegado por defecto
+Estoy desplegado por defecto
 
 ## Tablas de contenido {#tabs}
+
 === "Tab 1"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -88,7 +92,6 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
     { .annotate }
 
     1.  :woman_raising_hand: I'm an annotation as well!
-
 
 Por nombre estan vinculadas:
 
@@ -110,7 +113,6 @@ Pero sin o tienen el mismo nombre:
     }
     ```
 
-
 === "Verdito"
 
     ```css
@@ -119,15 +121,14 @@ Pero sin o tienen el mismo nombre:
     }
     ```
 
-
 ## Usando Grids {#grids}
 
 <div class="grid cards" markdown>
 
-- :fontawesome-brands-html5: __HTML__ for content and structure
-- :fontawesome-brands-js: __JavaScript__ for interactivity
-- :fontawesome-brands-css3: __CSS__ for text running out of boxes
-- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+- :fontawesome-brands-html5: **HTML** for content and structure
+- :fontawesome-brands-js: **JavaScript** for interactivity
+- :fontawesome-brands-css3: **CSS** for text running out of boxes
+- :fontawesome-brands-internet-explorer: **Internet Explorer** ... huh?
 
 </div>
 
@@ -141,35 +142,38 @@ Pero sin o tienen el mismo nombre:
 
 - :material-multimedia:{ .lg .middle }Multimedia
 
-    ---
-    En la __unidad dos__, se tratara la __implementación__ de contenido __multimedia__ e __integración de contenido interactivo__
+  ***
 
-    [:octicons-arrow-right-24: Ir a la Unidad Dos]()
+  En la **unidad dos**, se tratara la **implementación** de contenido **multimedia** e **integración de contenido interactivo**
+
+  [:octicons-arrow-right-24: Ir a la Unidad Dos]()
 
 - :material-wheelchair-accessibility:{ .lg .middle }Diseño de Webs Accesibles
 
-    ---
-    Esta __unidad__(1), aprenderemos a __diseñar__ páginas webs __accesibles__
-    {.annotate}
-    
-    1. __Unidad Tres__
+  ***
 
-    [:octicons-arrow-right-24: Ir a la Unidad Tres]()
+  Esta **unidad**(1), aprenderemos a **diseñar** páginas webs **accesibles**
+  {.annotate}
+
+  1. **Unidad Tres**
+
+  [:octicons-arrow-right-24: Ir a la Unidad Tres]()
 
 - :material-touch-text-outline:{ .lg .middle }Implementacion de la Usabilidad
 
-    ---
-    Y por último, __aprenderemos__ a __implementar__ en páginas web la __usabilidad__
+  ***
 
-    [:octicons-arrow-right-24: Ir a la Unidad Cuatro]()
+  Y por último, **aprenderemos** a **implementar** en páginas web la **usabilidad**
+
+  [:octicons-arrow-right-24: Ir a la Unidad Cuatro]()
 
 </div>
 
-
 ## Usando diagramas {#diagrams}
-Graphs 
 
-``` mermaid
+Graphs
+
+```mermaid
 graph LR
   A[Start] --> B{Error?};
   B -->|Yes| C[Hmm...];
@@ -180,7 +184,7 @@ graph LR
 
 Secuencial
 
-``` mermaid
+```mermaid
 sequenceDiagram
   autonumber
   Alice->>John: Hello John, how are you?
@@ -195,7 +199,7 @@ sequenceDiagram
 
 Estado
 
-``` mermaid
+```mermaid
 stateDiagram-v2
   state fork_state <<fork>>
     [*] --> fork_state
@@ -211,7 +215,7 @@ stateDiagram-v2
 
 De clase
 
-``` mermaid
+```mermaid
 classDiagram
   Person <|-- Student
   Person <|-- Professor
@@ -242,7 +246,7 @@ classDiagram
 
 De Relacion-Entidad
 
-``` mermaid
+```mermaid
 erDiagram
   CUSTOMER ||--o{ ORDER : places
   ORDER ||--|{ LINE-ITEM : contains
@@ -252,14 +256,16 @@ erDiagram
   }
   CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
+
 ## Iconos {#icons}
+
 Iconos normales
+
 ```java title="Un Emoji"
 :smile: //(1)!
 ```
 
 1. Esto seria :smile:
-
 
 Usando librerias de iconos
 
@@ -273,7 +279,7 @@ Aplicando un poco de color a la vida
 
 ```css title="docs/assets/stylesheets/extra.css"
 .youtube {
-  color: #EE0F0F;
+  color: #ee0f0f;
 }
 ```
 
@@ -283,7 +289,8 @@ Aplicando un poco de color a la vida
 
 1. Esto se veria asi :fontawesome-brands-youtube:{ .youtube }
 
-Los __iconos__ de __mkdocs__ usan:
+Los **iconos** de **mkdocs** usan:
+
 <div class="grid cards" markdown>
 - :fontawesome-brands-font-awesome-logo-full: [__FontAwesome__](https://fontawesome.com/search?m=free)
 - :material-material-design: [__Material Design__](https://pictogrammers.com/library/mdi/)
@@ -295,12 +302,13 @@ En la [página oficial](https://squidfunk.github.io/mkdocs-material/reference/ic
 
 ## Acrónimos/definiciones {#abbreviations}
 
-En el archivo ```#!python includes/abbreviations.md```(1) estan las abrevicaciones, que al poner el raton encima, te dara una pequeña descripcion que hayas asignado.
+En el archivo `#!python includes/abbreviations.md`(1) estan las abrevicaciones, que al poner el raton encima, te dara una pequeña descripcion que hayas asignado.
 {.annotate}
 
-1. Destacar codigo en linea, se puede usar cualqueir lenguaje, como ```#!css background-color:"red"``` 
+1. Destacar codigo en linea, se puede usar cualqueir lenguaje, como `#!css background-color:"red"`
 
 ## Bloques de Código {#code-examples}
+
 Con tiutlo asignado
 
 ```css title="css/styles.css"
@@ -310,13 +318,13 @@ Con tiutlo asignado
 }
 ```
 
-1. Un botón __hover__ :man_raising_hand:, se aplicara este __bloque__ cuando el `ratón` pase por encima
+1. Un botón **hover** :man_raising_hand:, se aplicara este **bloque** cuando el `ratón` pase por encima
 2. Cambiar el color a rojo
 3. Poner un radio de borde
 
 ### Enseñando lineas
 
-``` py linenums="1"
+```py linenums="1"
 def bubble_sort(items):
     for i in range(len(items)):
         for j in range(len(items) - 1 - i):
@@ -325,7 +333,8 @@ def bubble_sort(items):
 ```
 
 ### Entonando lineas
-``` py hl_lines="2 3"
+
+```py hl_lines="2 3"
 def bubble_sort(items):
     for i in range(len(items)):
         for j in range(len(items) - 1 - i):
@@ -333,14 +342,13 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-``` py hl_lines="3-5"
+```py hl_lines="3-5"
 def bubble_sort(items):
     for i in range(len(items)):
         for j in range(len(items) - 1 - i):
             if items[j] > items[j + 1]:
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
-
 
 ## Preview instantanea
 
@@ -351,19 +359,18 @@ Mirando al pasado a un enlace, podemos ver una pequeña previsualizacion
 ## Imagenes
 
 Imagen grande, con descripción, se puede hacer zoom
+
 <figure markdown>
 ![Un Placeholder](https://placehold.co/6000x4000){ width="500px"}
 <figcaption>Tulum, Mexico. Credit: Blueswen</figcaption>
 </figure>
 
-Descentrada por no usar ```#!html <figure markdown></figure>```(1)
+Descentrada por no usar `#!html <figure markdown></figure>`(1)
 {.annotate}
 
-1. Solo es necesario, añadir eso y la imagen, no es necesario usar ```#!html <figcaption/>```
+1. Solo es necesario, añadir eso y la imagen, no es necesario usar `#!html <figcaption/>`
 
 ![Un Placeholder](https://placehold.co/400x600){.center}
-
-
 
 ## Enlaces Externos {#external-links}
 

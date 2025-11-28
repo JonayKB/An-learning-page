@@ -1,21 +1,21 @@
-# Página Educativa con MkDocs
+# Página Educativa con Zensical
 
-Este proyecto utiliza [MkDocs](https://www.mkdocs.org/) para crear y mantener la página web educativa de una profesora. La página está pensada para ser fácil de actualizar y mantener mediante control de versiones con Git.
+Este proyecto utiliza [Zensical](https://www.Zensical.org/) para crear y mantener la página web educativa de una profesora. La página está pensada para ser fácil de actualizar y mantener mediante control de versiones con Git.
 
 ---
 
 ## 📚 Descripción
 
-El proyecto permite crear documentación y contenidos educativos de manera estructurada. La página web se genera automáticamente a partir de los archivos Markdown y la configuración de MkDocs.
+El proyecto permite crear documentación y contenidos educativos de manera estructurada. La página web se genera automáticamente a partir de los archivos Markdown y la configuración de Zensical.
 
 ---
 
 ## ⚡ Requisitos
 
-- Python 3.8+
-- [MkDocs](https://www.mkdocs.org/)
+- Python 3.14
+- [Zensical](https://www.Zensical.org/)
 - [Just](https://github.com/casey/just) (opcional, para simplificar comandos)
-- UV (herramienta de sincronización y ejecución de MkDocs en este proyecto)
+- UV (herramienta de sincronización y ejecución de Zensical en este proyecto)
 
 ---
 
@@ -25,20 +25,20 @@ Antes de ejecutar el servidor de desarrollo, es necesario sincronizar el proyect
 
 ```bash
 uv sync
-````
+```
 
 Luego, para levantar el servidor de desarrollo y ver los cambios en tiempo real:
 
-* Con **Justfile**:
+- Con **Justfile**:
 
 ```bash
 just
 ```
 
-* Sin **Justfile**:
+- Sin **Justfile**:
 
 ```bash
-uv run mkdocs serve
+uv run Zensical serve
 ```
 
 Después de ejecutar este comando, la página estará disponible en `http://127.0.0.1:8000`.
@@ -55,7 +55,7 @@ Para mantener la página estable y evitar que cambios en desarrollo afecten la w
 git checkout -b nombre-de-la-rama
 ```
 
-2. Hacer los cambios en Markdown o configuración de MkDocs.
+2. Hacer los cambios en Markdown o configuración de Zensical.
 
 3. Hacer commits claros y descriptivos:
 
@@ -74,12 +74,12 @@ git commit -m "Agrega sección sobre [tema]"
 
 Para mantener el historial organizado, se recomienda seguir una convención simple:
 
-* `feat:` nueva funcionalidad o sección.
-* `fix:` corrección de errores en la documentación.
-* `docs:` cambios en documentación o estructura de MkDocs.
-* `style:` cambios de formato o estilo sin afectar contenido.
-* `refactor:` cambios en la estructura o flujo sin modificar funcionalidad.
-* `chore:` tareas de mantenimiento, actualizaciones de dependencias, etc.
+- `feat:` nueva funcionalidad o sección.
+- `fix:` corrección de errores en la documentación.
+- `docs:` cambios en documentación o estructura de Zensical.
+- `style:` cambios de formato o estilo sin afectar contenido.
+- `refactor:` cambios en la estructura o flujo sin modificar funcionalidad.
+- `chore:` tareas de mantenimiento, actualizaciones de dependencias, etc.
 
 Ejemplo:
 
@@ -91,9 +91,9 @@ git commit -m "feat: agrega guía de estudio de álgebra"
 
 ## 🔗 Recursos
 
-* [Documentación oficial de MkDocs](https://www.mkdocs.org/)
-* [Justfile](https://github.com/casey/just)
-* [Markdown Guide](https://www.markdownguide.org/)
+- [Documentación oficial de Zensical](https://www.Zensical.org/)
+- [Justfile](https://github.com/casey/just)
+- [Markdown Guide](https://www.markdownguide.org/)
 
 ---
 
