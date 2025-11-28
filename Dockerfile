@@ -9,7 +9,7 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 # copy possible requirements and install (use pip cache)
 COPY . .
 RUN uv sync && \
-    uv run mkdocs build -d /web/build
+    uv run zensical build -d /web/build
 
 
 FROM nginx:stable-alpine AS production
