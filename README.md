@@ -38,7 +38,7 @@ just
 - Sin **Justfile**:
 
 ```bash
-uv run Zensical serve
+uv run zensical serve
 ```
 
 Después de ejecutar este comando, la página estará disponible en `http://127.0.0.1:8000`.
@@ -102,3 +102,4 @@ git commit -m "feat: agrega guía de estudio de álgebra"
 Todas las contribuciones deben seguir el flujo de desarrollo mencionado. Cada nueva sección o corrección debe realizarse en una rama independiente y pasar por revisión antes de mergear.
 
 ---
+
